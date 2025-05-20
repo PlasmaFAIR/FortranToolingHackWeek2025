@@ -14,8 +14,9 @@ to form teams. A dedicated Slack space will be provided to help coordinate activ
 teams are welcome to use any communication tool they prefer. Throughout the week, we'll host
 optional morning stand-up sessions for teams to share progress and raise any blockers, along
 with afternoon check-in and co-working sessions, where attendees can collaborate and support
-each other. The project organisers @LiamPattinson and @ZedThree will be available at these
-sessions to help troubleshoot any issues that arise.
+each other. The project organisers [@LiamPattinson](https://github.com/LiamPattinson) and
+[@ZedThree](https://github.com/ZedThree) will be available at these sessions to help
+troubleshoot any issues that arise.
 
 While we would recommend attending each meeting, we understand that this may not always be
 feasible. We will therefore make accommodations where possible, and no single meeting will be
