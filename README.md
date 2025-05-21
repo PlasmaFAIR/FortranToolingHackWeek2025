@@ -25,6 +25,8 @@ will be made available for those who can't make the project pitches.
 
 ## Schedule
 
+All timings are in British Summer Time (UTC+1)
+
 - Tuesday 27th May -- Project Pitches and Team Formation
   - 10:00 -- 10:15: Welcome, introductions, code of conduct.
   - 10:15 -- 11:00: Project pitches (3-5 minutes each).
