@@ -53,3 +53,21 @@ throughout the event. Please see [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md) for 
 
 If you have any questions or wish to report a violation of the code of conduct, please
 contact Liam Pattinson at [liam.pattinson@york.ac.uk](mailto:liam.pattinson@york.ac.uk).
+
+---
+
+# Outcomes
+
+A huge thank you to all attendees!
+
+- [@TomMelt](https://github.com/TomMelt) worked on the [Fortitude](https://github.com/PlasmaFAIR/fortitude) formatter, building upon previous efforts using the [Topiary](https://github.com/tweag/topiary) library to set whitespace and indentation. Made significant progress towards the reuse of select linting rule fixes as a post-processing step. Explored the Fortitude codebase in more depth, and learned some Rust in the process!
+
+- [@ZedThree](https://github.com/ZedThree) also worked on the Fortitude formatter, fixing some errors in the Topiary grammar, converting Topiary errors into Fortitude errors, and improving the robustness of the formatter by requiring idempotency (this option can be switched off in exchange for higher performance). Additionally made fixes to the [tree-sitter-fortran](https://github.com/stadelmanma/tree-sitter-fortran) grammar to resolve a number of long-standing issues.
+
+- [@connorair](https://github.com/connoraird) worked to add new Fortitude rules. As a first-time contributor, and without prior experience programming in Rust, was able to add two new rules (https://github.com/PlasmaFAIR/fortitude/pull/457 and https://github.com/PlasmaFAIR/fortitude/pull/460) and began work on a third (https://github.com/PlasmaFAIR/fortitude/pull/464). Also investigated the feasibility of hosting [pFUnit](https://github.com/Goddard-Fortran-Ecosystem/pFUnit) on [FPM](https://fpm.fortran-lang.org/index.html), finding that FPM support would need to be added to all of pFUnit’s dependencies and that major changes would be needed to pFUnit itself. It may be more feasible to add CMake support to FPM than to get pFUnit ready for FPM.
+
+- [@LiamPattinson](https://github.com/LiamPattinson) worked on adding new rules to Fortitude and helped to on-board new contributors. Added two new 'correctness' rules (https://github.com/PlasmaFAIR/fortitude/pull/458 and https://github.com/PlasmaFAIR/fortitude/pull/466) which can catch major bugs, and is in a position to add a similar third rule without difficulty. Additionally gained experience organising events and running hackathons, and is hoping to take this forward to future projects.
+
+- Worked towards a user-sortable reference of which features are offered by various compilers and tools in both the open-source and closed-source world (including free-for-academic-use commercial products). Made significant progress on developing a compiler test suite to better understand the variance between different compilers, and found an example web page containing a user-sortable table that could be adapted for use on Fortran-Lang’s pages.
+
+- Made progress towards resolving licensing issues that would otherwise prevent the inclusion of the documentation generator [FORD](https://forddocs.readthedocs.io/en/stable/) in Fortran-Lang community projects. These discussions helped to inform a NumFOCUS grant submission (https://github.com/numfocus/small-development-grant-proposals/issues/31) to improve FORD/Sphinx compatibility.
